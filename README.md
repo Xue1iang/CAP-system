@@ -38,7 +38,7 @@ To facilitate plotting, rostopics other than images have also been converted int
 
 The code was written in Python and uploaded in the format of a ROS package. The following steps are required:
 
-1.  Compile `cap_code`.
+1.  Compile CAP-system rospackage.
 2.  Download the dataset.
 3.  Play the rosbag with the command `rosbag play /path_to_rosbags/***.bag` and also execute `roslaunch cap_codes localisation_1_3.launch`. (You can also integrate the `rosbag play` command into the launch file, depending on user preference.)
 4.  You can monitor `/cap_cd` or `/cap_pnp` through PlotJuggler or by any other means.
