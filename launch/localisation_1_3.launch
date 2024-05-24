@@ -1,0 +1,13 @@
+<launch>
+ 
+ <!--CAP system-->
+
+ <node name="cap" pkg="xueliang_localisation" type="cap_cd_pnp.py" output="screen" />
+
+ <rosparam file="/path_to_files/xueliang_localisation/config/mallard_static.yaml" command="load" />
+ 
+ <!--Run RVIZ-->
+ <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d /home/xl/mallard_ws/src/MallARD/xueliang_localisation/config/rvizTF.rviz" /> -->
+
+
+</launch>
